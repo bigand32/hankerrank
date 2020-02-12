@@ -23,4 +23,13 @@ public class EncryptionTest {
 
 		assertThat(result, is(expected));
 	}
+	
+	@Test
+	public void testThree() {
+		String input = "chillout";
+		String expected = "clu hlt io ";
+		String result = code.solve(input);
+
+		assertThat(result, is(expected));
+	}
 }
