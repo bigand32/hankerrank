@@ -15,10 +15,12 @@ public class Encryption {
 
 		for (int col = 0; col < column; col++) {
 			for (int index = col; index < length; index += column) {
-				result += String.valueOf(text.charAt(index));
+				result += text.charAt(index);
 			}
 			result += " ";
 		}
 		return result;
 	}
+
 }
+
