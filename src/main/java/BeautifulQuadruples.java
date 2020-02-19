@@ -13,7 +13,7 @@ public class BeautifulQuadruples {
 			for (int second = first; second <= two; second++) {
 				for (int third = second; third <= three; third++) {
 					for (int fourth = third; fourth <= four; fourth++) {
-						int xor = first ^ second ^ third ^ fourth;
+						long xor = first ^ second ^ third ^ fourth;
 						if (xor > 0) {
 							count++;
 						}
